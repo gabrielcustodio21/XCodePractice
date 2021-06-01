@@ -18,12 +18,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="8LX-Hr-Dyf">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="8LX-Hr-Dyf">
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.26707717776298523" green="0.6854671835899353" blue="0.80956035852432251" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="8LX-Hr-Dyf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="4De-Tc-Hn5"/>
+                            <constraint firstItem="8LX-Hr-Dyf" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Et1-JE-xyH"/>
+                            <constraint firstItem="8LX-Hr-Dyf" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Juc-Pb-onN"/>
+                            <constraint firstItem="8LX-Hr-Dyf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="bfK-KN-9dD"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
